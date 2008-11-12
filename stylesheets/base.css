@@ -7,7 +7,7 @@ html {
   /* background-image: url(/images/background-blue-squares-4.png); */
   /* background-image: url(/images/background-blue-squares-5.png); */
   /* background-image: url(/images/background-blue-squares-6.png); */
-  background-image: url(/images/content-gradient.png);
+  background-image: url(/themes/liquid_blue/images/content-gradient.png);
   background-repeat: repeat-x;
 }
 body{
@@ -50,7 +50,7 @@ body{
 }
 #header h1 span.logo{
   padding-left: 20px;
-  background-image: url(/images/logo-green.png);
+  background-image: url(/themes/liquid_blue/images/logo-green.png);
   background-repeat: no-repeat;
   background-position: top left;
   margin-right: 0px;
@@ -90,7 +90,7 @@ ul#plugins-nav{
 }
 #navigation li a{
   padding: 5px 10px;
-  background: #ccc url(/images/hover_nav.png) repeat-x left top;
+  background: #ccc url(/themes/liquid_blue/images/hover_nav.png) repeat-x left top;
   color: #333;
   display: block;
   text-decoration: none;
@@ -98,7 +98,7 @@ ul#plugins-nav{
 }
 #navigation li.active a,
 #navigation li.active a:hover {
-  background: #bcea4c url(/images/active-nav.png) repeat-x left top;
+  background: #bcea4c url(/themes/liquid_blue/images/active-nav.png) repeat-x left top;
   color: #333;
   cursor: default;
   padding-left: 6px;
@@ -106,7 +106,7 @@ ul#plugins-nav{
 #navigation li a:hover {
   color: #444;
   padding-left: 6px;
-  background: #eee url(/images/nav.png) repeat-x left top;
+  background: #eee url(/themes/liquid_blue/images/nav.png) repeat-x left top;
 }
 div#breadcrumb{
  background-color: #333;
@@ -116,7 +116,7 @@ div#breadcrumb{
 }
 #content{
   width: 98%;
-  background: #075470 url(/images/content-gradient2.png) repeat-x top left;
+  background: #075470 url(/themes/liquid_blue/images/content-gradient2.png) repeat-x top left;
   padding: 60px 10px 10px;
   /* border: 1px solid #800000;*/
   margin: 0 auto;
@@ -134,7 +134,7 @@ div.clear{
 h2{
   font-size: 175%;
   color: #fff;
-  background: url(/images/h2-back.png) no-repeat top left;
+  background: url(/themes/liquid_blue/images/h2-back.png) no-repeat top left;
   padding-left: 60px;
   padding-top: 6px;
   font-weight: normal;
@@ -171,7 +171,7 @@ a:hover{
 }
 ul.styled-ul{
   list-style-type: disc;
-  list-style-image: url(/images/arrow.png);
+  list-style-image: url(/themes/liquid_blue/images/arrow.png);
   padding-left: 20px;
   margin-left: -11px;
   width: 40%;
@@ -180,7 +180,7 @@ ul.styled-ul{
 }
 ul.styled-ul li{
   list-style-type: disc;
-  list-style-image: url(/images/arrow.png);
+  list-style-image: url(/themes/liquid_blue/images/arrow.png);
   list-style-position: inside;
   margin-bottom: 15px;
 }
@@ -208,13 +208,13 @@ ul.popularity li a:hover{
   
 }
 .hTagcloud{
-  background: #FFFFFF url(/images/content-gradient.png) repeat-x scroll left top;
+  background: #FFFFFF url(/themes/liquid_blue/images/content-gradient.png) repeat-x scroll left top;
   border: 2px solid #759627; 
 }
 .guy-with-glasses{
   width: 580px;
   height: 380px;
-  background: url(/images/man_on_phone.png);
+  background: url(/themes/liquid_blue/images/man_on_phone.png);
   margin-top: -60px;
   float:left;
   margin-left: 410px;
