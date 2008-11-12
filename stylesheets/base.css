@@ -63,7 +63,7 @@ body{
 }
 #navigation{
   position: absolute;
-  right: 10%;
+  left: 520px;
   top: 54px;
   z-index:20;
 }
@@ -115,7 +115,7 @@ div#breadcrumb{
  color: #eee;
 }
 #content{
-  width: 100%;
+  width: 98%;
   background: #075470 url(/images/content-gradient2.png) repeat-x top left;
   padding: 60px 10px 10px;
   /* border: 1px solid #800000;*/
@@ -216,7 +216,8 @@ ul.popularity li a:hover{
   height: 380px;
   background: url(/images/man_on_phone.png);
   margin-top: -60px;
-  float:right;
+  float:left;
+  margin-left: 410px;
 }
 .left-cont-section{
   width: 40%;
