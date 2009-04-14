@@ -1,0 +1,34 @@
+<!-- Generated Using Ansuz CMS -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>Ansuz with Themes!</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta name="description" content="Ansuz Content Management System" />
+  	<meta name="keywords" content="Ansuz Content Management System" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="icon"          href="favicon.ico" type="image/vnd.microsoft.icon" />
+    <!--[if lt IE 7.]><%= javascript_include_tag 'pngfix.js' %><![endif]-->
+    <%= manage_ansuz_stylesheets %>
+    <%= manage_ansuz_javascripts %>
+	  <%= theme_stylesheet_link_tag 'ansuz_theme_liquid_blue', 'base' -%>
+  </head>
+  <body>
+    <div id='wrapper'>
+      <div id="main">
+        <div id='header'>
+          <h1>
+            <span class='logo'></span>
+          </h1>
+        </div>
+        <div id='content'>
+          <%= @content_for_layout -%>
+        </div>
+        <div class='clear'></div>
+        <%= render :partial => "page/footer" -%>
+      </div> 
+    </div>
+  </body>
+</html>
